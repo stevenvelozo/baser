@@ -72,7 +72,7 @@ var Baser = function()
 		{
 			// This code is not optimized for least typing, but most legibility.
 			// Get the remainder
-			let tmpRemainder = pConversionPacket.Integer % _Base;
+			var tmpRemainder = pConversionPacket.Integer % _Base;
 
 			// Reduce the conversion packet by one significant digit.
 			pConversionPacket.Integer = (pConversionPacket.Integer - tmpRemainder) / _Base;
