@@ -1,0 +1,33 @@
+{
+  "name": "baser",
+  "version": "1.0.1",
+  "description": "Free basing at its finest.",
+  "main": "source/Baser.js",
+  "scripts": {
+    "start": "node source/Server.js",
+    "coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -u tdd -R spec",
+    "test": "./node_modules/mocha/bin/_mocha -u tdd -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevenvelozo/baser.git"
+  },
+  "keywords": [
+    "base62"
+  ],
+  "author": "Steven Velozo <steven@velozo.com> (http://velozo.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevenvelozo/baser/issues"
+  },
+  "homepage": "https://github.com/stevenvelozo/baser",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "codeclimate-test-reporter": "0.3.3",
+    "coveralls": "2.11.14",
+    "istanbul": "0.4.5",
+    "mocha": "3.1.0"
+  },
+  "dependencies": {
+  }
+}
